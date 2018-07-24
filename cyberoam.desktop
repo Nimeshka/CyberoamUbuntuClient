@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=cyberoam
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=cyberoam
+Name=cyberoam
+Comment[en_US]=cyberoam client
+Comment=cyberoam client
+Icon=/opt/cyberoam/cyber.png

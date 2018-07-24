@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+
+echo 'Installing Cyberoam client'
+
+cp -r $PWD /opt/
+ln -s /opt/cyberoam/run /usr/bin/cyberoam
+cp cyberoam.desktop $HOME/.config/autostart/cyberoam.desktop
+cp cyberoam.desktop $HOME/.local/share/applications/cyberoam.desktop
+rm /opt/cyberoam/install
+echo 'done.'
