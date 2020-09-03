@@ -1,11 +1,7 @@
 # Cyberoam Desktop client for Ubuntu
 
-This is not an official or a serious project. It contains a few simple scripts I wrote with Python QT library and bash to save my time from having to open the Cyberoam web client in the browser everyday. (Cyberoam doesn't have an official desktop client for Ubuntu). 
+This repository contains a few simple scripts I wrote with Python QT library and bash to save my time from having to open the Cyberoam web client in the browser everyday. (Cyberoam doesn't have an official desktop client for Ubuntu). 
 
-
-###### Why is this in Github? 
-
-It's here not because I wanted to share it as a project; but only as a backup for myself (so I can clone it anywhere when I need). If you really want to use this, you might need to solve dependencies, change a few lines in the code.
 
 ###### How to run?
 
